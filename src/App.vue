@@ -1,13 +1,18 @@
 <template>
   <div id='app'>
     <router-view/>
-    <FooterGuide/>
+    <FooterGuide v-show="$route.meta.show"/>
   </div>
 </template>
 
 <script >
 import FooterGuide from './components/FooterGuide/FooterGuide'
 export default {
+ mounted(){
+   this.$store.dispatch('getUserInfo')
+
+
+ },
   data() {
     return {
 

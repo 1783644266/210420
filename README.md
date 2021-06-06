@@ -1,21 +1,7 @@
-# gshop
+总结： 
 
-> A Vue.js project
+1.练习该项目主要针对界面交互进行练习，逐步了解vue从数据更新到界面更新的流程并利用$nextTick在合适的时间创建swiper、betterScroll实例。
 
-## Build Setup
+2.练习vue的动画过渡效果、过滤器、组件间通信props、$emit与vuex的使用。
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+3.掌握vue-router编程式的导航与声明式的导航
